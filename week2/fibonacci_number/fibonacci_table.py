@@ -9,6 +9,3 @@ def calc_fib(n):
             fib_table.append(fib_table[i-2] + fib_table[i-1])
 
     return fib_table[-1]
-
-# n = int(input())
-# print(calc_fib(n))

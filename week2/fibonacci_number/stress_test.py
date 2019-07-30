@@ -1,5 +1,5 @@
-from fibonacci_table import calc_fib as calc_fib_table
-from fibonacci_naive import calc_fib as calc_fib_naive
+# from fibonacci_table import calc_fib as calc_fib_table
+# from fibonacci_naive import calc_fib as calc_fib_naive
 
 # Uses python3
 for i in range(31):
