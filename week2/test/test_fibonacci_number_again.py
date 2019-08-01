@@ -1,13 +1,20 @@
 # Uses python3
 import sys
-sys.path.append('/Users/brianhogan/Developer/algorithms/week2/app')
+sys.path.append('../app')
 
 from fibonacci_number.fibonacci_table import calc_fib
 # from .last_digit_of_fibonacci_number.fibonacci_last_digit_table import get_fibonacci_last_digit_table
 n = int(input())
 
-# for N in get_fibonacci_last_digit_table(n):
-#     print(N, end=" ")
+# for i in range(990, 1001):
+#     for N in range(n):
+#         if i >= 2:
+#             print(calc_fib(N) % i , end=" ")
+#         else:
+#             print(calc_fib(N), end=" ")
+#     print('\n')
 
-for N in range(n):
-    print(calc_fib(N), end=" ")
+for i in range(n):
+        print(calc_fib(i), end=" ")
+# print('\n')
+
